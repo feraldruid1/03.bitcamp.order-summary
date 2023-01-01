@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  background: #E0E8FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("pattern-background-desktop.svg");
+  background-position: right top;
+  background-repeat: repeat-x;
+  height: 900px;
+}
+.mainbox {
+  margin: 0;
+  box-sizing: border-box;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background: #FFFFFF;
+  
+}
+img {
+  
+  width: 450px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h1 {
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #1f2e55;
+    
+  }
+p {
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.boxformusic {
+  box-sizing: border-box;
+  display: flex;
+  width: 354px;
+  height: 98px;
+  background: #F7F9FF;
+  border-radius: 11px;
+  margin-left: 48px;
+  
+}
+.music {
+  display: flex;
+  margin-left: 24px;
+  align-self: center;
+} 
+.musicboxhead {
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  width: fit-content;
+  display: flex;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1F2E55;
+}
+.musicboxhead2 {
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  width: fit-content;
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717FA6;
+  
+}
+.musicboxlittle {
+  align-self: center;
+  margin-left: 20px;
+  
+}
+.change {
+  align-self: center;
+  margin-left: 94px;
+  color: blue;
+}
+.change:hover {
+  color: #766CF1;
+  cursor:pointer;
+}
+
+button{
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 11px;
+  background: #382AE1;
+  border: #382AE1;
+  width: 354px;
+  height: 50px;
+  margin-top: 32px;
+
+}
+button:hover {
+  background: #766CF1;
+  cursor:pointer;
+}
+.lastdiv {
+  
+  color: #717FA6;
+  margin-top: 32px;
+}
+.lastspan:hover {
+  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1F2E55;
+  cursor:pointer;
+}
+@media only screen and (max-width: 375px) {
+  .mainbox {
+    max-width: 375px;
+    
+  }
+}  
