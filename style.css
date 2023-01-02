@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("pattern-background-desktop.svg");
+  background-image: url("./images/pattern-background-desktop.svg");
   background-position: right top;
   background-repeat: repeat-x;
   height: 900px;
