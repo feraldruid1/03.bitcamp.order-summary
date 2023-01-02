@@ -1,6 +1,7 @@
 
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   background: #E0E8FF;
   display: flex;
   align-items: center;
@@ -9,10 +10,12 @@ body {
   background-image: url("./images/pattern-background-desktop.svg");
   background-position: right top;
   background-repeat: repeat-x;
-  height: 900px;
+  width: 100vw;
+  height: 100vh;
 }
 .mainbox {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   width: 450px;
   height: 697px;
