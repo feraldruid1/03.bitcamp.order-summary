@@ -18,9 +18,11 @@ body {
   box-sizing: border-box;
   width: 450px;
   height: 697px;
+  display: flex;
   border-radius: 20px;
   background: #FFFFFF;
-  
+  flex-direction: column;
+  align-items: center;
 }
 img {
   
@@ -30,7 +32,7 @@ img {
   border-top-right-radius: 20px;
 }
 h1 {
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-family: 'Red Hat Display';
     font-weight: 900;
     font-size: 28px;
     line-height: 37px;
@@ -38,13 +40,12 @@ h1 {
     
   }
 p {
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-family: 'Red Hat Display'  , sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #717fa6;
-  margin-left: 48px;
-  margin-right: 48px;
+
 }
 .boxformusic {
   box-sizing: border-box;
@@ -53,7 +54,7 @@ p {
   height: 98px;
   background: #F7F9FF;
   border-radius: 11px;
-  margin-left: 48px;
+  
   
 }
 .music {
@@ -62,7 +63,7 @@ p {
   align-self: center;
 } 
 .musicboxhead {
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-family: 'Red Hat Display'  , sans-serif;
   width: fit-content;
   display: flex;
   font-size: 14px;
@@ -70,7 +71,7 @@ p {
   color: #1F2E55;
 }
 .musicboxhead2 {
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-family: 'Red Hat Display'  , sans-serif;
   width: fit-content;
   display: flex;
   font-weight: 500;
@@ -88,6 +89,10 @@ p {
   align-self: center;
   margin-left: 94px;
   color: blue;
+  font-family: 'Red Hat Display'  , sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
 }
 .change:hover {
   color: #766CF1;
@@ -95,7 +100,7 @@ p {
 }
 
 button{
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-family: 'Red Hat Display'  , sans-serif;
   color: #FFFFFF;
   font-weight: 900;
   font-size: 15px;
@@ -117,8 +122,14 @@ button:hover {
   color: #717FA6;
   margin-top: 32px;
 }
+.lastspan {
+  font-family: 'Red Hat Display'  , sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
 .lastspan:hover {
-  font-family: Arial ,Verdana ,Tahoma , sans-serif;
+  font-family: 'Red Hat Display'  , sans-serif;
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
