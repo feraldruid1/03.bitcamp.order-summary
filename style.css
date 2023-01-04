@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
   }
 body {
   
@@ -10,12 +12,11 @@ body {
   justify-content: center;
   text-align: center;
   background-image: url("./images/pattern-background-desktop.svg");
-  background-position: right top;
+  background-position: top;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 .mainbox {
-  box-sizing: border-box;
   width: 450px;
   height: 697px;
   display: flex;
@@ -32,7 +33,7 @@ img {
   border-top-right-radius: 20px;
 }
 h1 {
-    font-family: 'Red Hat Display';
+    padding-top: 45px;
     font-weight: 900;
     font-size: 28px;
     line-height: 37px;
@@ -40,7 +41,7 @@ h1 {
     
   }
 p {
-  font-family: 'Red Hat Display'  , sans-serif;
+  padding-top: 17px;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -48,7 +49,7 @@ p {
 
 }
 .boxformusic {
-  box-sizing: border-box;
+  margin-top: 20px;
   display: flex;
   width: 354px;
   height: 98px;
@@ -63,7 +64,7 @@ p {
   align-self: center;
 } 
 .musicboxhead {
-  font-family: 'Red Hat Display'  , sans-serif;
+
   width: fit-content;
   display: flex;
   font-size: 14px;
@@ -71,7 +72,7 @@ p {
   color: #1F2E55;
 }
 .musicboxhead2 {
-  font-family: 'Red Hat Display'  , sans-serif;
+
   width: fit-content;
   display: flex;
   font-weight: 500;
@@ -89,7 +90,7 @@ p {
   align-self: center;
   margin-left: 94px;
   color: blue;
-  font-family: 'Red Hat Display'  , sans-serif;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -100,7 +101,7 @@ p {
 }
 
 button{
-  font-family: 'Red Hat Display'  , sans-serif;
+  
   color: #FFFFFF;
   font-weight: 900;
   font-size: 15px;
@@ -118,18 +119,15 @@ button:hover {
   cursor:pointer;
 }
 .lastdiv {
-  
   color: #717FA6;
   margin-top: 32px;
 }
 .lastspan {
-  font-family: 'Red Hat Display'  , sans-serif;
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
 }
 .lastspan:hover {
-  font-family: 'Red Hat Display'  , sans-serif;
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
