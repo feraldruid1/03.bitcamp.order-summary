@@ -1,7 +1,9 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  }
 body {
-  margin: 0px;
-  padding: 0px;
+  
   background: #E0E8FF;
   display: flex;
   align-items: center;
@@ -13,8 +15,6 @@ body {
   height: 100vh;
 }
 .mainbox {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
   width: 450px;
   height: 697px;
