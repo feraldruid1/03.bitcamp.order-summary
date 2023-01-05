@@ -4,8 +4,7 @@
   font-family: 'Red Hat Display', sans-serif;
   box-sizing: border-box;
   }
-body {
-  
+body {  
   background: #E0E8FF;
   display: flex;
   align-items: center;
@@ -26,7 +25,6 @@ body {
   align-items: center;
 }
 img {
-  
   width: 450px;
   height: 220px;
   border-top-left-radius: 20px;
@@ -46,7 +44,6 @@ p {
   font-size: 16px;
   line-height: 26px;
   color: #717fa6;
-
 }
 .boxformusic {
   margin-top: 20px;
@@ -55,42 +52,39 @@ p {
   height: 98px;
   background: #F7F9FF;
   border-radius: 11px;
-  
-  
+  justify-content: space-around;
 }
 .music {
   display: flex;
-  margin-left: 24px;
+  
   align-self: center;
 } 
 .musicboxhead {
-
   width: fit-content;
-  display: flex;
   font-size: 14px;
   line-height: 19px;
   color: #1F2E55;
 }
 .musicboxhead2 {
-
   width: fit-content;
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
   color: #717FA6;
-  
 }
 .musicboxlittle {
   align-self: center;
-  margin-left: 20px;
+  display: flex;
   
+}
+.musicboxlittle2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px ;
 }
 .change {
   align-self: center;
-  margin-left: 94px;
   color: blue;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -101,7 +95,6 @@ p {
 }
 
 button{
-  
   color: #FFFFFF;
   font-weight: 900;
   font-size: 15px;
@@ -112,7 +105,6 @@ button{
   width: 354px;
   height: 50px;
   margin-top: 32px;
-
 }
 button:hover {
   background: #766CF1;
@@ -137,6 +129,5 @@ button:hover {
 @media only screen and (max-width: 375px) {
   .mainbox {
     max-width: 375px;
-    
   }
 }  
